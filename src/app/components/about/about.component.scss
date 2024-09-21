@@ -191,4 +191,59 @@
       grid-gap: 8rem;
     }
   }
+
+
+  //.container {
+  //  max-width: 1200px;
+  //  margin: 0 auto;
+  //  padding: 20px;
+  //}
+  //
+  //.heading-sec {
+  //  text-align: center;
+  //  margin-bottom: 40px;
+  //}
+
+  .experience__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between the experience items */
+  }
+
+  .experience__item {
+    border: 2px solid #ddd;
+    padding: 20px;
+    width: 80%; /* Controls the width of the experience boxes */
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .experience__title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .experience__duration {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  .experience__description {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  @media (min-width: 768px) {
+    .experience__item {
+      width: 60%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .experience__item {
+      width: 50%;
+    }
+  }
 }
