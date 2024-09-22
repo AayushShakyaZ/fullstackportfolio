@@ -145,17 +145,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 100rem;
+        max-width: 120rem;
 
         p {
           width: fit-content;
-          font-size: 1rem;
-          line-height: 1.5;
+          font-size: 0.5rem;
+          line-height: 1;
           -webkit-line-clamp: 5;
           display: -webkit-box;
           -webkit-box-orient: vertical;
           text-overflow: ellipsis;
-          overflow: hidden;
+          overflow: visible;
           color: #333;
           text-align: center;
         }
